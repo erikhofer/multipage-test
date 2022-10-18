@@ -2,3 +2,15 @@
   command = "echo 🏗"
   publish = "/pages"
   base = "/"
+
+[[redirects]]
+  from = "https://a.scope42.org/*"
+  to = "/page-a/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "https://b.scope42.org/*"
+  to = "/page-b/:splat"
+  status = 200
+  force = true
