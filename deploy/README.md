@@ -1,0 +1,1 @@
+mklink /D "page-b" "..\pages\page-b"
